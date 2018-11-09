@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">"Customer Info"</string>
+	<string name="orient">"Orient Change"</string>
+	<string name="sav">"SAVE"</string>
+	<string name="canc">"CANCEL"</string>
+	<string name="first">"Give your first name"</string>
+	<string name="last">"Give your last name"</string>
+	<string name="agee">"Give your age"</string>
+	<string name="nam">"First name: "</string>
+	<string name="lastn">"Last name: "</string>
+	<string name="age">"Age: "</string>
+	<string name="edit">"EDIT"</string>
+	<string name="del">"DELETE"</string>
+	<string name="err">"Error occurred. Too small values."</string>
+	<string name="noentry">"A field is empty"</string>
+	<string name="delentry">"Delete Entry"</string>
+	<string name="delquest">"Are you sure you want to delete this entry?"</string>
+	<string name="conf">"YES"</string>
+	<string name="sucdel">"Delete was succesfull"</string>
+	<string name="no">"NO"</string>
+</resources>
