@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="#2c2c2c"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/name1"
+            android:clickable="false"
+            style="@style/specialbuttonstyle"
+            android:background="#414141"
+            android:layout_marginTop="32dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="32dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/edit"
+                android:onClick="addedit"
+                android:text="@string/edit"
+                style="@style/buttonstyle"
+                android:background="#5b5a5c"
+                android:layout_marginLeft="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/del"
+                android:layout_alignParentRight="true"
+                android:onClick="delclient"
+                android:text="@string/del"
+                style="@style/buttonstyle"
+                android:background="#5b5a5c"
+                android:layout_marginRight="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/lastname1"
+                android:clickable="false"
+                style="@style/specialbuttonstyle"
+                android:background="#414141"
+                android:layout_marginTop="32dp"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/age1"
+                android:clickable="false"
+                style="@style/specialbuttonstyle"
+                android:background="#414141"
+                android:layout_below="@+id/lastname1"
+                android:layout_marginTop="32dp"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>
