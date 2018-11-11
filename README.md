@@ -9,7 +9,7 @@
 **Collection name:** clients_app  
 
 ##### Open mongoDB  
-Open a Node.js command prompt and then type
+Open a Node.js command prompt and type
 
 		`mongod`  
     
