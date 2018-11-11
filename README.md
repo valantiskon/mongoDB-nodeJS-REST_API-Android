@@ -31,17 +31,7 @@ use http://10.0.2.2:3000/api/clients_app/ (for Genymotion use 10.0.3.2)
 ##### Running the Android Application on a real device   
 replace 10.0.2.2 with your local IP address (http:// (YOUR IP ADDRESS) :3000/api/clients_app/)  
 
-<img src="https://github.com/valantiskon/mongoDB-nodeJS-REST_API-Android/blob/app-showcase/images/Read_Delete_Update-Screen.png" width="300">
-
-<img src="https://github.com/valantiskon/mongoDB-nodeJS-REST_API-Android/blob/app-showcase/images/add-edit_client1.png" width="300">
-
-<img src="https://github.com/valantiskon/mongoDB-nodeJS-REST_API-Android/blob/app-showcase/images/add-edit_client2.png" width="300">
-
-<img src="https://github.com/valantiskon/mongoDB-nodeJS-REST_API-Android/blob/app-showcase/images/add_screen.png" width="300">
-
-<img src="https://github.com/valantiskon/mongoDB-nodeJS-REST_API-Android/blob/app-showcase/images/empty_home_screen.png" width="300">
-
-<img src="https://github.com/valantiskon/mongoDB-nodeJS-REST_API-Android/blob/app-showcase/images/home_screen1.png" width="300">
-
-<img src="https://github.com/valantiskon/mongoDB-nodeJS-REST_API-Android/blob/app-showcase/images/home_screen2.png" width="300">
+Solarized dark              |  Solarized Ocean          |  Solarized dark           |  Solarized Ocean              |  Solarized Ocean              |  Solarized Ocean              |  Solarized Ocean              
+|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
+<img src="https://github.com/valantiskon/mongoDB-nodeJS-REST_API-Android/blob/app-showcase/images/Read_Delete_Update-Screen.png" width="300">  |  <img src="https://github.com/valantiskon/mongoDB-nodeJS-REST_API-Android/blob/app-showcase/images/add-edit_client1.png" width="300">  |  <img src="https://github.com/valantiskon/mongoDB-nodeJS-REST_API-Android/blob/app-showcase/images/add-edit_client2.png" width="300">  | <img src="https://github.com/valantiskon/mongoDB-nodeJS-REST_API-Android/blob/app-showcase/images/add_screen.png" width="300">  |  <img src="https://github.com/valantiskon/mongoDB-nodeJS-REST_API-Android/blob/app-showcase/images/empty_home_screen.png" width="300">  |  <img src="https://github.com/valantiskon/mongoDB-nodeJS-REST_API-Android/blob/app-showcase/images/home_screen1.png" width="300">  |  <img src="https://github.com/valantiskon/mongoDB-nodeJS-REST_API-Android/blob/app-showcase/images/home_screen2.png" width="300">
 
