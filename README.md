@@ -1,12 +1,15 @@
 # Use Instructions  
-Build a REST API in Node.js with mongoDB and then call the REST services from your Android application.  
+
+##### Contents
+* REST API in Node.js with mongoDB  
+* Android Application that utilizes the REST API services  
 
 ##### Create a database and a collection on mongoDB  
 **Database name:** mongoDB_clients  
 **Collection name:** clients_app  
 
 ##### Open mongoDB  
-To do that open a Node.js command prompt and then type
+Open a Node.js command prompt and then type
 
 		`mongod`  
     
