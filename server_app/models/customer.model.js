@@ -14,11 +14,11 @@ const CustomerSchema = mongoose.Schema({
 		type: Number
 	}
 }, {
-		collection: 'test_app',
+		collection: 'clients_app',
         timestamps: false
     });
 
-var customer = module.exports = mongoose.model('mongoDB_bank', CustomerSchema);
+var customer = module.exports = mongoose.model('mongoDB_clients', CustomerSchema);
 
 //Get all customers
 module.exports.findAll = function(callback, limit){

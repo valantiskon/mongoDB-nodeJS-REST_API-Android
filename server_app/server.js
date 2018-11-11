@@ -34,7 +34,7 @@ app.get('/',(req,res)=>{
 
 
 //Return all customers
-app.get('/api/test_app', function(req, res){
+app.get('/api/clients_app', function(req, res){
 	Course.findAll(function(err, customers){
 		if(err){
 			throw err;
@@ -45,7 +45,7 @@ app.get('/api/test_app', function(req, res){
 });
 
 //Add a customer
-app.post('/api/test_app', function(req, res){
+app.post('/api/clients_app', function(req, res){
 	var customer = req.body;
 	
 	Course.createe(customer, function(err, customer){
@@ -57,7 +57,7 @@ app.post('/api/test_app', function(req, res){
 });
 
 //Edit a customer
-app.put('/api/test_app/:id', function(req, res){
+app.put('/api/clients_app/:id', function(req, res){
 	var id = req.params.id;  //Use customer.id and move it below customer if this line doesn't work
 	var customer = req.body;
 	Course.update(id, customer, {}, function(err, customer){
@@ -69,7 +69,7 @@ app.put('/api/test_app/:id', function(req, res){
 });
 
 //Delete one customer
-app.delete('/api/test_app/:id', function(req, res){
+app.delete('/api/clients_app/:id', function(req, res){
 	var id = req.params.id;
 	Course.delete(id, function(err, customer){
 		if(err){
@@ -80,7 +80,7 @@ app.delete('/api/test_app/:id', function(req, res){
 });
 
 //Find one customer
-app.get('/api/test_app/:id', function(req, res){
+app.get('/api/clients_app/:id', function(req, res){
 	Course.findOnee(req.params.id, function(err, customer){
 		if(err){
 			throw err;
@@ -90,6 +90,6 @@ app.get('/api/test_app/:id', function(req, res){
 });
 
 
-app.listen(80, () => {
-    console.log("Server is listening on port 80");
+app.listen(3000, () => {
+    console.log("Server is listening on port 3000");
 });
