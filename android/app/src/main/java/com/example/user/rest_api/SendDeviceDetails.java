@@ -1,8 +1,7 @@
-package com.example.user.bank;
+package com.example.user.rest_api;
 
 import android.os.AsyncTask;
 import android.util.Log;
-
 import java.io.BufferedOutputStream;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

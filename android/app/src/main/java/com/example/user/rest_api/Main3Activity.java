@@ -1,4 +1,4 @@
-package com.example.user.bank;
+package com.example.user.rest_api;
 
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
@@ -67,7 +67,7 @@ public class Main3Activity extends AppCompatActivity implements Serializable {
         }
 
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("http://10.0.2.2:80/api/test_app/")
+                .baseUrl("http://10.0.2.2:3000/api/clients_app/") // For emulator: 10.0.2.2 | For real device: use your local IP address instead
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
         mongoservice = retrofit.create(MongodbCommun.class);
@@ -120,7 +120,7 @@ public class Main3Activity extends AppCompatActivity implements Serializable {
 
                         String json = postData.toString();
                         System.out.println(json);
-                        new SendDeviceDetails().execute("http://10.0.2.2:80/api/test_app/", "ADD", json);
+                        new SendDeviceDetails().execute("http://10.0.2.2:3000/api/clients_app/", "ADD", json); // For emulator: 10.0.2.2 | For real device: use your local IP address instead
 
                         Toast.makeText(getApplicationContext(), "Success!", Toast.LENGTH_SHORT).show();
                         finish();
