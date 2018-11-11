@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">"Customer Info"</string>
+    <string name="app_name">"REST API"</string>
 	<string name="orient">"Orient Change"</string>
 	<string name="sav">"SAVE"</string>
 	<string name="canc">"CANCEL"</string>

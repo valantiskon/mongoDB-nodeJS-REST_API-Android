@@ -1,4 +1,4 @@
-package com.example.user.bank;
+package com.example.user.rest_api;
 
 import android.graphics.Color;
 import android.os.Bundle;
@@ -38,7 +38,7 @@ public class MainActivity extends Activity implements Serializable  {
         setContentView(R.layout.activity_main);
 
         retrofit = new Retrofit.Builder()
-                .baseUrl("http://10.0.2.2:80/api/test_app/")
+                .baseUrl("http://10.0.2.2:3000/api/clients_app/") // For emulator: 10.0.2.2 | For real device: use your local IP address instead
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
         mongoservice = retrofit.create(MongodbCommun.class);

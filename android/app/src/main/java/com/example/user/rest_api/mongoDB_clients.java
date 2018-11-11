@@ -1,6 +1,6 @@
-package com.example.user.bank;
-import com.google.gson.annotations.SerializedName;
+package com.example.user.rest_api;
 
+import com.google.gson.annotations.SerializedName;
 import java.io.Serializable;
 
 public class mongoDB_clients implements Serializable {

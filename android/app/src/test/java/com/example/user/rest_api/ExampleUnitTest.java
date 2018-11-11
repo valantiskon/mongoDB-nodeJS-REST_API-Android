@@ -1,4 +1,4 @@
-package com.example.user.bank;
+package com.example.user.rest_api;
 
 import org.junit.Test;
 

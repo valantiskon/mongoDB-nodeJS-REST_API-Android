@@ -1,4 +1,4 @@
-package com.example.user.bank;
+package com.example.user.rest_api;
 
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -41,7 +41,7 @@ public class Main2Activity extends AppCompatActivity {
         list = (List<mongoDB_clients>) args.getSerializable("ARRAYLIST");
 
         retrofit = new Retrofit.Builder()
-                .baseUrl("http://10.0.2.2:80/api/test_app/")
+                .baseUrl("http://10.0.2.2:3000/api/clients_app/") // For emulator: 10.0.2.2 | For real device: use your local IP address instead
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
         mongoservice = retrofit.create(MongodbCommun.class);
